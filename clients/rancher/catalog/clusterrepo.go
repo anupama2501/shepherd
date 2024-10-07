@@ -217,3 +217,5 @@ func (c *Client) UninstallChart(chartName, chartNamespace string, uninstallActio
 
 	return result.Error()
 }
+
+
