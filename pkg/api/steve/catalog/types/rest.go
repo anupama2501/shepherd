@@ -99,8 +99,3 @@ type ChartActionOutput struct {
 	OperationName      string `json:"operationName,omitempty"`
 	OperationNamespace string `json:"operationNamespace,omitempty"`
 }
-
-type AddChartRepository struct {
-	GitBranch string `json:"gitBranchName,omitempty"`
-	GitRepo   string `json:"gitRepo,omitempty"`
-}
